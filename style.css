@@ -22,7 +22,7 @@ body {
     background: #5c273c;
     background: radial-gradient(circle, rgba(92, 39, 60, 1) 0%, rgba(148, 187, 233, 1) 100%);
     position: relative;
-    padding-top: 12vh;
+    padding-top: 1px;
     -ms-overflow-style: none;
     /* for Edge */
     scrollbar-width: none;
@@ -45,11 +45,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 999;
-    box-shadow: 5px 5px 5px black;
-    background: radial-gradient(circle, rgba(92, 39, 60, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 #nav h3 {
