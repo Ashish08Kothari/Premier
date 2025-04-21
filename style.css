@@ -22,7 +22,7 @@ body {
     background: #5c273c;
     background: radial-gradient(circle, rgba(92, 39, 60, 1) 0%, rgba(148, 187, 233, 1) 100%);
     position: relative;
-    padding-top: 1px;
+    padding-top: 0.1px;
     -ms-overflow-style: none;
     /* for Edge */
     scrollbar-width: none;
@@ -32,7 +32,6 @@ body {
 
 #main::-webkit-scrollbar {
     display: none;
-    
 }
 
 
